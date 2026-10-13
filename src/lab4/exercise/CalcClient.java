@@ -10,8 +10,6 @@ public class CalcClient {
         try (Socket socket = new Socket("127.0.0.1", 8890);
              PrintWriter writer = new PrintWriter(socket.getOutputStream(), true);
              BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()))) {
-
-            // Bạn có thể đổi command ở đây để test các trường hợp khác nhau:
             // "CALC + 100 200"
             // "CALC / 10 0"
             // "CALC % 10 3"
