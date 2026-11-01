@@ -36,7 +36,7 @@ public class TcpCommandClient {
                 }
             }
         } catch (NumberFormatException e) {
-            System.err.println("Port phải là số nguyên");
+            System.err.println("Port phải là số nguyênn");
         } catch (IOException e) {
             System.err.println("Lỗi kết nối: " + e.getMessage());
         }

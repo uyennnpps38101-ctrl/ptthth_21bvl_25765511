@@ -29,7 +29,7 @@ public class UdpEchoClient {
                         StandardCharsets.UTF_8);
                 System.out.println("Server: " + text);
             } catch (SocketTimeoutException e) {
-                System.err.println("Hết 3 giây nhưng chưa nhận được phản hồi");
+                System.err.println("Hết 3 giây nhưng chưa nhận được phản hồii");
             }
         }
     }

@@ -31,7 +31,7 @@ public class HostInspector {
                 System.out.println("  Site local: " + address.isSiteLocalAddress());
             }
         } catch (UnknownHostException e) {
-            System.err.println("Không phân giải được host: " + args[0]);
+            System.err.println("Không phân giải được hostt: " + args[0]);
         }
     }
 }

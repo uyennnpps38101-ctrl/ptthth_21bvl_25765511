@@ -19,7 +19,7 @@ public class CalcClient {
             writer.println(command);
 
             String response = reader.readLine();
-            System.out.println("Phản hồi từ server: " + response);
+            System.out.println("Phản hồi từ serverr: " + response);
 
         } catch (Exception e) {
             e.printStackTrace();

@@ -30,7 +30,7 @@ public class UdpEchoServer {
                 socket.send(response);
             }
         } catch (IOException e) {
-            System.err.println("UDP server error: " + e.getMessage());
+            System.err.println("UDP server errorr: " + e.getMessage());
         }
     }
 }

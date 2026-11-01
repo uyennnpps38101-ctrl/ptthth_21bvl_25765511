@@ -19,7 +19,7 @@ public class NumberServer {
                 return "Số ngoài phạm vi hỗ trợ (0-9)";
             }
         } catch (NumberFormatException e) {
-            return "Lỗi: Không phải là số nguyên hợp lệ";
+            return "Lỗi: Không phải là số ngguyên hợp lệ";
         }
     }
 

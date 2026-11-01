@@ -23,7 +23,7 @@ public class CalcServer {
             num1 = Double.parseDouble(parts[2]);
             num2 = Double.parseDouble(parts[3]);
         } catch (NumberFormatException e) {
-            return "ERR INVALID_NUMBER";
+            return "ERR INVALID_NUMBERR";
         }
 
         double result;

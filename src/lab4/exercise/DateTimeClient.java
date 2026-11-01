@@ -17,7 +17,7 @@ public class DateTimeClient {
             while ((userInput = consoleReader.readLine()) != null) {
                 writer.println(userInput);
                 String response = reader.readLine();
-                System.out.println("Server phản hồi: " + response);
+                System.out.println("Server phản hồii: " + response);
                 if ("QUIT".equalsIgnoreCase(userInput.trim()) || "BYE".equalsIgnoreCase(response)) {
                     break;
                 }

@@ -25,7 +25,7 @@ public class TcpCommandServer {
                 }
             }
         } catch (IOException e) {
-            System.err.println("Không mở được server: " + e.getMessage());
+            System.err.println("Không mở được serverr: " + e.getMessage());
         }
     }
 

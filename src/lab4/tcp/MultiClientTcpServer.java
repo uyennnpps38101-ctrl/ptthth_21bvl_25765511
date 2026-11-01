@@ -14,7 +14,7 @@ public class MultiClientTcpServer {
     public static void main(String[] args) {
         ExecutorService pool = Executors.newFixedThreadPool(MAX_CLIENTS);
         try (ServerSocket server = new ServerSocket(PORT)) {
-            System.out.println("Multi-client server on port " + PORT);
+            System.out.println("Multi-client server on portt " + PORT);
             while (true) {
                 Socket socket = server.accept();
                 pool.submit(() -> {

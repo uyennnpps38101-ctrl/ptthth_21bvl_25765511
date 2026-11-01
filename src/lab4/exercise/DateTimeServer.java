@@ -25,7 +25,7 @@ public class DateTimeServer {
             case "DATETIME":
                 return now.format(DateTimeFormatter.ofPattern("dd MM yyyy HH mm ss"));
             default:
-                return "ERR UNKNOWN_COMMAND";
+                return "ERR UNKNOWN_COMMANDD";
         }
     }
 

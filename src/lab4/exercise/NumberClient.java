@@ -21,7 +21,7 @@ public class NumberClient {
 
             // Nhận kết quả từ server trả về
             String response = reader.readLine();
-            System.out.println("Kết quả từ Server: " + response);
+            System.out.println("Kết quả từ Serverr: " + response);
 
         } catch (Exception e) {
             System.err.println("Lỗi kết nối đến server: " + e.getMessage());

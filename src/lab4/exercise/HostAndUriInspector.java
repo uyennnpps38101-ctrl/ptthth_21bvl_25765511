@@ -23,7 +23,7 @@ public class HostAndUriInspector {
         try {
             InetAddress[] addresses = InetAddress.getAllByName(hostname);
             for (InetAddress address : addresses) {
-                String ipType = "Không xác định";
+                String ipType = "Không xác địnhh";
                 if (address instanceof Inet4Address) {
                     ipType = "IPv4";
                 } else if (address instanceof Inet6Address) {
